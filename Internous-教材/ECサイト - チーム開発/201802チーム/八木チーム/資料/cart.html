@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+      <link rel="stylesheet" type="text/css" href="cart.css">
+      <title>カート</title>
+</head>
+  <body>
+<!--全ページ共通-->
+  <div id="image-wrap">
+      
+  <div id="icon">
+   <img src="iconzen.png" style="width:30%; height:120px;">
+  </div>
+
+  <!--header 全ページ共通-->    
+  <header id="header-wrapper">
+   <!--追加　検索機能　LOGIN後LOGOUT-->
+   <ul>  
+     <li><a href='<s:url action="LoginAction"/>'>ログイン</a></li>
+     <li><a href='<s:url action="ProductListAction"/>'>商品一覧</a></li>
+     <li><a href='<s:url action="MyPageAction"/>'>マイページ</a></li>
+     <li><a href='<s:url action="cart.jsp"/>'>カート</a></li>
+   </ul>   
+  </header> 
+      
+      
+  <div class="container">
+    
+<div class="box-colum clearfix">
+<div class="box-column float-left w66">
+     
+
+<h2 class="heading">カート一覧</h2>
+
+    
+<form action="ResetPasswordConfirmAction">
+ 
+
+<table class="table">
+<tbody>
+<tr>
+<th>商品名</th>
+<td>
+単価    
+</td>
+<td>
+数量
+</td>
+<td>
+小計
+</td>
+<td rowspan="2">
+<button type="submit" class="button">削除</button>
+</td>
+</tr> 
+    
+<tr>    
+<th>画像</th>
+<td>***</td>
+<td>***</td>
+<td>***</td>
+</tr> 
+
+</tbody>
+</table>
+    
+<table class="table2">
+<tbody>
+<tr>
+<th>商品名</th>
+<td>
+単価    
+</td>
+<td>
+数量
+</td>
+<td>
+小計
+</td>
+<td rowspan="2">
+<button type="submit" class="button">削除</button>
+</td>
+</tr> 
+    
+<tr>    
+<th>画像</th>
+<td>***</td>
+<td>***</td>
+<td>***</td>
+</tr> 
+
+</tbody>
+</table>
+    </form>
+
+    </div>
+      </div>
+    </div>
+      
+<div class="container2">
+ <p>数量</p>
+    <br>
+ <p>商品合計金額</p>
+ </div>     
+    </div>
+      
+<!--ページ移動-->
+<div class="movement">      
+<button type="submit" class="pay">決済完了</button>
+   <br>
+    <br>
+<button type="submit" class="productlist">商品一覧に戻る</button>
+</div>        
+
+ <footer id="footer-menu">
+   <div id="inquiry"><a href='<s:url action="InquiryAction"/>'>お問い合わせ</a></div>
+   <div id="company">&copy;ZEN</div>
+  </footer>     
+      
+      
+      
+      
+      
+      
+    </body>
+</html>
+
+
+
+    

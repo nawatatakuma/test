@@ -1,0 +1,31 @@
+【参考になりそうなレイアウトのサイト】※自分用メモです
+http://bm.s5-style.com
+　【S5-Style】優れたWebデザインをブックマーク
+
+http://www.camdentownbrewery.com/
+　Camden Town Brewery ビール販売のサイト
+
+http://jfarm-tomato.com/
+　株式会社Jファーム　トマトの通販
+　↑シンプルなデザインが凄く見やすい！
+
+https://www.4digit.jp/recruit/
+　株式会社フォーデジット
+
+
+【50年代に制作された映画】
+・ローマの休日
+・雨に唄えば
+・風と共に去りぬ
+・サンセット大通り
+
+【50年代を舞台にした映画】
+・スタンド・バイ・ミー
+・タイピスト
+
+【jQuery参考】
+http://www.go-next.co.jp/blog/web/javascript/7392/
+　マウスに合わせて背景が動くページ
+
+http://theorthodoxworks.com/web-design/drop-down-menu-multi-css/
+　CSSのみで作るドロップダウンメニュー
