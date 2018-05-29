@@ -1,2 +1,0 @@
-insert into product_info(product_id, product_name, product_name_kana, product_description, keywords, category_id, price, stock, image_file_path, image_file_name, release_date, release_company, regist_date)
-values(1, "森伊蔵", "もりいぞう", "芋焼酎の独特な臭みの無い、まろやかな味わい。ファーストクラスの機内食にも採用されています。アルコール度数25。", "酒 芋焼酎", 1, 20000, 10, "./image/moriizou.jpg", "moriizou.jpg", 2010/04/07/, "森伊蔵酒造", now());

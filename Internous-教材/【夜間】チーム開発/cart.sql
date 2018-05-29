@@ -1,1 +1,0 @@
-create table cart(id int(11), user_id varchar(16), item_id int(11), total_price int(11), buy_count int(11), pay varchar(16), insert_date datetime, update_date datetime);
